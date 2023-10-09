@@ -1,0 +1,30 @@
+version: 1
+creator: xdebug 3.2.2 (PHP 8.2.8)
+cmd: /Users/Gleb.Sieemshchikov/PhpstormProjects/GlebsProject/Class.php
+part: 1
+positions: line
+
+events: Time_(10ns) Memory_(bytes)
+
+fl=(2) /Users/Gleb.Sieemshchikov/PhpstormProjects/GlebsProject/Class.php
+fn=(1) Some::fun
+5 646 1112
+
+fl=(1) php:internal
+fn=(2) php::Error->getMessage
+15 33 0
+
+fl=(2)
+fn=(3) {main}
+1 2221 80
+cfl=(2)
+cfn=(1)
+calls=1 0 0
+13 646 1112
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+15 33 0
+
+summary: 5050 432864
+

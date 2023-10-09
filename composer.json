@@ -1,0 +1,14 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "10.1.0",
+    "laravel/pint": "^v1.10.6"
+  },
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src"
+    }
+  }
+}
