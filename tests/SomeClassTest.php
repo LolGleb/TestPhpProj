@@ -2,6 +2,8 @@
 
 use PHPUnit\Framework\TestCase;
 
+require_once 'vendor/autoload.php';
+
 class SomeClassTest extends TestCase
 {
     public function testAdd()
