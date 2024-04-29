@@ -1,7 +1,9 @@
 <?php
 
-trait Soe
+class SomeClass
 {
-    #[Assert\Length(min: , max: )]
-    public $var;
+    public function test()
+    {
+        echo "Hello World!";
+    }
 }
